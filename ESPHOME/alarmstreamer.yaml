@@ -14,6 +14,7 @@ api:
 
 external_components:
   - source: github://oxan/esphome-stream-server
+  
 ota:
   - platform: esphome
     password: !secret ota_password
